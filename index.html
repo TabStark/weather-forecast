@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="navcontainer">
+        <img src="image/icon.png" alt="">
+    </div>
+
+    <div class="container">
+
+        <div class="search">
+            <input type="text" name="" id="search">
+            <i class="fa-solid fa-magnifying-glass" id="searchicon"></i>
+        </div>
+
+        <div class="temp">
+            <img id="sunrain" src="image/weather.png" alt="">
+            <p id="degree">22°C</p>
+            <p id="place">Ambur</p>
+        </div>
+        <div class="addition">
+            <div class="humidity">
+                <div class="humidityicon">
+                    <i class="fa-solid fa-droplet"></i>
+                </div>
+                <div class="humiditysection">
+                    <p id="humiditypercent">50%</p>
+                    <p id="humiditytxt">Humidity</p>
+                </div>
+            </div>
+            <div class="windSpeed">
+                <div class="windicon">
+                    <i class="fa-solid fa-wind"></i>
+                </div>
+                <div class="windsection">
+                    <p id="windunit">3Km/h</p>
+                    <p id="windtxt">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tableContainer">
+        <p>Some Major Cities Weather</p>
+        <table>
+            <tr>
+                <th>City Name</th>
+                <th>Temperature</th>
+                <th>Humidity</th>
+                <th>Wind Speed</th>
+            </tr>
+            <tr>
+                <td>Bangalore</td>
+                <td id="bangTemp">22°C</td>
+                <td id="bangHumidity">50%</td>
+                <td id="bangWind">3Km/h</td>
+            </tr>
+            <tr>
+                <td>Chennai</td>
+                <td id="chennaiTemp">22°C</td>
+                <td id="chennaiHumidity">50%</td>
+                <td id="chennaiWind">3Km/h</td>
+            </tr>
+            <tr>
+                <td>Delhi</td>
+                <td id="delhiTemp">22°C</td>
+                <td id="delhiHumidity">50%</td>
+                <td id="delhiWind">3Km/h</td>
+            </tr>
+            <tr>
+                <td>Hyderabad</td>
+                <td id="hyderabadTemp">22°C</td>
+                <td id="hyderabadHumidity">50%</td>
+                <td id="hyderabadWind">3Km/h</td>
+            </tr>
+            <tr>
+                <td>Mumbai</td>
+                <td id="mumbaiTemp">22°C</td>
+                <td id="mumbaiHumidity">50%</td>
+                <td id="mumbaiWind">3Km/h</td>
+            </tr>
+            <tr>
+                <td>Kolkata</td>
+                <td id="kolkataTemp">22°C</td>
+                <td id="kolkataHumidity">50%</td>
+                <td id="kolkataWind">3Km/h</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        <div class="footertxt">
+            <p> © 2023 Weather App Stark Inc. All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

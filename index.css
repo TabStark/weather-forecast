@@ -1,0 +1,194 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navcontainer{
+    height: 80px;
+    background-color: rgb(142, 43, 142);
+}
+.navcontainer img{
+    width: 300px;
+}
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    border: 3px solid white;
+    background-color: rgb(142, 43, 142);
+    box-shadow: 0px 0px 10px rgb(194, 194, 194);
+    border-radius: 30px;
+
+}
+
+.temp {
+    width: 75%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.temp img {
+    width: 50%;
+}
+
+.temp p {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.addition {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.humidity {
+    width: 30%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.humidity p{
+    color: white;
+}
+
+.humidityicon i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.windSpeed {
+    width: 30%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.windSpeed P{
+    color: white;
+}
+
+.windicon i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.search {
+    width: 70%;
+    margin: 10px auto;
+    height: 40px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    border-radius: 20px;
+    background-color: white;
+}
+
+.search input {
+    height: 100%;
+    width: 85%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+.search i {
+    font-size: 1.5rem;
+}
+.tableContainer{
+    width: 90%;
+    margin: 50px auto;
+}
+.tableContainer p {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+table{
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+
+}
+th{
+    font-size: 18px;
+}
+th, td{
+  padding: 15px;
+  border-bottom: 1px solid black;
+  text-align: center;
+
+}
+.footer{
+    height: 50px;
+    background-color: rgb(142, 43, 142);
+}
+.footertxt{
+    width: 100%;
+    padding-top: 12px;
+    
+}
+.footertxt p{
+    color: white;
+    text-align: center;    
+}
+@media (max-width: 550px){
+    th{
+        font-size: 15px;
+    }
+}
+@media (max-width:500px) {
+    .container {
+        width: 350px;
+        height: 380px;
+    }
+    .tableContainer p {
+        font-size: 2rem;
+    }
+   
+    th, td {
+        padding: 14px 5px;
+      
+    }
+}
+
+@media(max-width: 400px) {
+    .container {
+        width: 298px;
+        height: 349px;
+    }
+
+    .temp p {
+        font-size: 1.5rem;
+    }
+    .humidityicon i {
+        font-size: 1.2rem;
+    }
+    .windicon i {
+        font-size: 1.2rem;
+    }
+    .humiditysection p{
+        font-size: 12px;
+    }
+    .windsection p{
+        font-size: 12px;
+    }
+    .tableContainer p {
+        font-size: 1.5rem;
+    }
+    .footertxt p{
+        font-size: 14px;
+    }
+}
+
